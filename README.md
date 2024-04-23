@@ -6,7 +6,7 @@ A simple script to demonstrate ESC/POS functionality on Linux of the Phoenix The
 
 - Ubuntu (may work on other distros, currently untested)
 - Python 3 with the following libraries
-    - python-escpos 
+    - [python-escpos](https://github.com/python-escpos/python-escpos)
 - Download and setup the Linux driver located on the PTI Website:
     - [Phoenix Printer Drivers](https://pyramidacceptors.com/phoenix-printer-drivers)
 
