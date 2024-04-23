@@ -20,4 +20,10 @@ You have two options for printing: via USB or with [CUPS](https://wiki.archlinux
 If everything has been set up correctly, your printer will print a ticket that looks like the following:
 ![Image](./docs/sample.jpg "Sample Ticket")
 
+## Useful Commands
+
+1. **`lsusb`**: Lists all USB devices connected to the system, showing basic details like bus number and device IDs.
+2. **`ls /dev/usb`**: Displays the contents of the `/dev/usb` directory, where device files for USB devices are stored.
+3. **`lsusb -v -d 0425:0412`**: Provides detailed information on a specific USB device, identified by the vendor and product ID `0425:0412`, including configurations and endpoint descriptors.
+
 
